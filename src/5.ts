@@ -9,7 +9,7 @@ type user = {
     nome:string
     idade:number
     ocupacao:string
-    salario?:any
+    salario?:number
 }
 
 const usuario1: user = {

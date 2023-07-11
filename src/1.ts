@@ -18,4 +18,4 @@ function calcularMedia(n1:number, n2:number){
     return aluno
 }
 let aluno1 = calcularMedia(3,3)
-console.log(aluno1);
+console.log(aluno1)

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+//usei esta aba para testar as funções com "npm run dev"
 // // 4. Crie um programa para cadastrar, listar e excluir produtos de uma
 // // lista com tipagem de Produto.
 const produtos_1 = require("./produtos");
