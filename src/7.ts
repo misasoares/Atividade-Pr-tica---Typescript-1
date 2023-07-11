@@ -5,11 +5,11 @@
 // b. O mesmo que o exercício 6, em caso de objeto Diretor.
 
 
-type userOuDiretor = user | diretor
+type userOuDiretor = user & diretor
 
 function exibirInfo(lista:userOuDiretor[]){
     lista.forEach((e) => {
-        if('nivelComissionamento' in e){
+        if(e.nivelComissionamento){
             console.log(`Diretor(a) ${e.nome}, ${e.idade} anos, comissão nível ${e.nivelComissionamento}, salário ${e.salario ? `R$ ${e.salario}` : 'N/A'}`);
         }else{
             console.log(`${e.nome}, ${e.idade} anos, ${e.ocupacao}, salário ${e.salario ? `R$ ${e.salario}` : 'N/A'}`);
